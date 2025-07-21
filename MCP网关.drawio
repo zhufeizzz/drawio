@@ -190,7 +190,7 @@
         <mxCell id="jJTAVrFgWwlrYvnkQEcj-88" value="工具Client SDK" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=bottom;" vertex="1" parent="1">
           <mxGeometry x="1059" y="1483" width="168" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="jJTAVrFgWwlrYvnkQEcj-90" value="工具调用" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="jJTAVrFgWwlrYvnkQEcj-90" value="工具调用Client&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="1078" y="1499" width="130" height="43" as="geometry" />
         </mxCell>
         <mxCell id="jJTAVrFgWwlrYvnkQEcj-91" value="工具定义查询/发现" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=middle;" vertex="1" parent="1">

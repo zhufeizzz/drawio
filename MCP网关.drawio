@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0" version="26.2.12">
   <diagram name="第 1 页" id="xkRhAheFYaKFnBhGg02L">
-    <mxGraphModel dx="1623" dy="970" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1948" dy="1164" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,37 +28,37 @@
         <mxCell id="jJTAVrFgWwlrYvnkQEcj-4" value="MCP Gateway" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1226" y="364" width="588" height="113" as="geometry" />
         </mxCell>
-        <mxCell id="jJTAVrFgWwlrYvnkQEcj-12" value="&lt;div&gt;MCP Inbound&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="jJTAVrFgWwlrYvnkQEcj-12" value="&lt;div&gt;MCP Inbound&lt;/div&gt;&lt;div&gt;（内部工具发布为MCP）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1616" y="394" width="145" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="jJTAVrFgWwlrYvnkQEcj-14" value="API to MCP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="jJTAVrFgWwlrYvnkQEcj-14" value="API to MCP&lt;div&gt;转换工具&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1257" y="394" width="145" height="47" as="geometry" />
         </mxCell>
         <mxCell id="jJTAVrFgWwlrYvnkQEcj-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;jumpStyle=arc;" edge="1" parent="1" source="jJTAVrFgWwlrYvnkQEcj-15" target="jJTAVrFgWwlrYvnkQEcj-17">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1465" y="535" />
-              <mxPoint x="785" y="535" />
+              <mxPoint x="1465" y="533" />
+              <mxPoint x="812" y="533" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="jJTAVrFgWwlrYvnkQEcj-15" value="MCP &lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Outbound&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;（实例部署）&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="jJTAVrFgWwlrYvnkQEcj-15" value="MCP &lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Outbound&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;（MCP Server实例部署）&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1429" y="394" width="145" height="47" as="geometry" />
         </mxCell>
         <mxCell id="jJTAVrFgWwlrYvnkQEcj-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" edge="1" parent="1" source="jJTAVrFgWwlrYvnkQEcj-15" target="jJTAVrFgWwlrYvnkQEcj-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jJTAVrFgWwlrYvnkQEcj-18" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;内部工具发布为MCP Server&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jJTAVrFgWwlrYvnkQEcj-17" target="jJTAVrFgWwlrYvnkQEcj-12">
-          <mxGeometry x="-0.2692" relative="1" as="geometry">
+        <mxCell id="jJTAVrFgWwlrYvnkQEcj-18" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;内部Agent工具发布为MCP Server&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jJTAVrFgWwlrYvnkQEcj-17" target="jJTAVrFgWwlrYvnkQEcj-12">
+          <mxGeometry x="-0.2432" y="2" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="841" y="563" />
-              <mxPoint x="1652" y="563" />
+              <mxPoint x="895" y="562" />
+              <mxPoint x="1652" y="562" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jJTAVrFgWwlrYvnkQEcj-17" value="&lt;b&gt;Agent工具注册中心&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=bottom;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="730" y="583" width="221" height="109" as="geometry" />
+          <mxGeometry x="730" y="583" width="329" height="96" as="geometry" />
         </mxCell>
         <mxCell id="jJTAVrFgWwlrYvnkQEcj-19" value="&lt;b&gt;ServiceA&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=bottom;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;arcSize=11;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1108" y="773" width="363" height="188" as="geometry" />
@@ -72,12 +72,8 @@
         <mxCell id="jJTAVrFgWwlrYvnkQEcj-22" value="Agent Studio" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="751" y="829" width="305" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="jJTAVrFgWwlrYvnkQEcj-35" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;注册/消费&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;工具定义&lt;/font&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" edge="1" parent="1" source="jJTAVrFgWwlrYvnkQEcj-24" target="jJTAVrFgWwlrYvnkQEcj-26">
-          <mxGeometry x="0.001" relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1097" y="915" />
-              <mxPoint x="1097" y="635" />
-            </Array>
+        <mxCell id="jJTAVrFgWwlrYvnkQEcj-35" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;注册/消费&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;工具定义&lt;/font&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" edge="1" parent="1" source="jJTAVrFgWwlrYvnkQEcj-24" target="jJTAVrFgWwlrYvnkQEcj-17">
+          <mxGeometry x="0.2782" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -106,8 +102,8 @@
         <mxCell id="jJTAVrFgWwlrYvnkQEcj-25" value="Agent工具SDK" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1523" y="893" width="309" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="jJTAVrFgWwlrYvnkQEcj-26" value="Agent工具目录" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="762" y="611" width="145" height="47" as="geometry" />
+        <mxCell id="jJTAVrFgWwlrYvnkQEcj-26" value="工具定义注册" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="762" y="602" width="118" height="47" as="geometry" />
         </mxCell>
         <mxCell id="jJTAVrFgWwlrYvnkQEcj-31" value="Agent工具开发" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1129" y="829" width="145" height="47" as="geometry" />
@@ -141,14 +137,14 @@
         </mxCell>
         <mxCell id="jJTAVrFgWwlrYvnkQEcj-50" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Rest标准协议&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="824" y="244" as="sourcePoint" />
-            <mxPoint x="974" y="244" as="targetPoint" />
+            <mxPoint x="827.5" y="244" as="sourcePoint" />
+            <mxPoint x="977.5" y="244" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jJTAVrFgWwlrYvnkQEcj-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;jumpStyle=arc;" edge="1" parent="1" source="jJTAVrFgWwlrYvnkQEcj-62" target="jJTAVrFgWwlrYvnkQEcj-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jJTAVrFgWwlrYvnkQEcj-65" value="调用外部系统工具" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;jumpStyle=arc;" edge="1" parent="1" source="jJTAVrFgWwlrYvnkQEcj-62" target="jJTAVrFgWwlrYvnkQEcj-14">
+        <mxCell id="jJTAVrFgWwlrYvnkQEcj-65" value="调用外部系统Agent工具" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;jumpStyle=arc;" edge="1" parent="1" source="jJTAVrFgWwlrYvnkQEcj-62" target="jJTAVrFgWwlrYvnkQEcj-14">
           <mxGeometry x="-0.4517" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -156,16 +152,11 @@
         <mxCell id="jJTAVrFgWwlrYvnkQEcj-62" value="CSE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="751" y="783" width="1082" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="jJTAVrFgWwlrYvnkQEcj-64" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;转换为内部工具调用&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" edge="1" parent="1" source="jJTAVrFgWwlrYvnkQEcj-12" target="jJTAVrFgWwlrYvnkQEcj-62">
+        <mxCell id="jJTAVrFgWwlrYvnkQEcj-64" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;转换为内部Agent工具调用&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" edge="1" parent="1" source="jJTAVrFgWwlrYvnkQEcj-12" target="jJTAVrFgWwlrYvnkQEcj-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jJTAVrFgWwlrYvnkQEcj-37" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;注册/消费&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;工具定义&lt;/font&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" edge="1" parent="1" source="jJTAVrFgWwlrYvnkQEcj-22" target="jJTAVrFgWwlrYvnkQEcj-26">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="717" y="859" />
-              <mxPoint x="717" y="635" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="jJTAVrFgWwlrYvnkQEcj-37" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;注册/消费&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;工具定义&lt;/font&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" edge="1" parent="1" source="jJTAVrFgWwlrYvnkQEcj-22" target="jJTAVrFgWwlrYvnkQEcj-17">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jJTAVrFgWwlrYvnkQEcj-66" value="Inbound&lt;div&gt;（SOAP/Rest/...）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="784" y="398" width="145" height="47" as="geometry" />
@@ -173,13 +164,16 @@
         <mxCell id="jJTAVrFgWwlrYvnkQEcj-67" value="Outbound&lt;div&gt;（SOAP/Rest/...）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="965" y="398" width="145" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="jJTAVrFgWwlrYvnkQEcj-68" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;注册至内部工具目录&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" edge="1" parent="1" source="jJTAVrFgWwlrYvnkQEcj-14" target="jJTAVrFgWwlrYvnkQEcj-17">
+        <mxCell id="jJTAVrFgWwlrYvnkQEcj-68" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;注册至内部Agent工具目录&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" edge="1" parent="1" source="jJTAVrFgWwlrYvnkQEcj-14" target="jJTAVrFgWwlrYvnkQEcj-17">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1293" y="535" />
-              <mxPoint x="785" y="535" />
+              <mxPoint x="1293" y="533" />
+              <mxPoint x="812" y="533" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="jJTAVrFgWwlrYvnkQEcj-70" value="工具定义检索" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="912" y="602" width="118" height="47" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

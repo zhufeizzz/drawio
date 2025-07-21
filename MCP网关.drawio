@@ -148,8 +148,10 @@
         <mxCell id="jJTAVrFgWwlrYvnkQEcj-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;jumpStyle=arc;" edge="1" parent="1" source="jJTAVrFgWwlrYvnkQEcj-62" target="jJTAVrFgWwlrYvnkQEcj-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jJTAVrFgWwlrYvnkQEcj-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;jumpStyle=arc;" edge="1" parent="1" source="jJTAVrFgWwlrYvnkQEcj-62" target="jJTAVrFgWwlrYvnkQEcj-14">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="jJTAVrFgWwlrYvnkQEcj-65" value="调用外部系统工具" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;jumpStyle=arc;" edge="1" parent="1" source="jJTAVrFgWwlrYvnkQEcj-62" target="jJTAVrFgWwlrYvnkQEcj-14">
+          <mxGeometry x="-0.4517" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="jJTAVrFgWwlrYvnkQEcj-62" value="CSE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="751" y="783" width="1082" height="31" as="geometry" />
